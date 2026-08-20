@@ -1,0 +1,1133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+
+    <!-- Mobile-specific optimizations -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <title>AL Raheed Arafath &amp; Zubaida Sana Sherif | Wedding Invitation</title>
+    <meta
+      name="description"
+      content="Wedding Invitation of AL Raheed Arafath &amp; Zubaida Sana Sherif — 05 September 2026, Indiana Convention Centre, Jeppinamogaru, Mangalore."
+    />
+
+    <!-- Open Graph / Social sharing (static values required — crawlers do not run JS).
+       TODO once deployed: replace the two "https://YOUR-DOMAIN-HERE" placeholders
+       below with the real production URL — WhatsApp, iMessage, Discord and several
+       other crawlers will not reliably fetch a relative og:image path, so an
+       absolute URL is required for the preview image to show up consistently. -->
+    <link rel="canonical" href="https://raheed-ishla.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://raheed-ishla.vercel.app/" />
+    <meta
+      property="og:title"
+      content="AL Raheed Arafath &amp; Zubaida Sana Sherif | Wedding Invitation"
+    />
+    <meta
+      property="og:description"
+      content="Wedding Invitation of AL Raheed Arafath &amp; Zubaida Sana Sherif — 05 September 2026, Indiana Convention Centre, Jeppinamogaru, Mangalore."
+    />
+    <meta
+      property="og:image"
+      content="https://raheed-ishla.vercel.app/assets/images/raheed-zubaida-og-image.jpg"
+    />
+    <meta
+      property="og:image:secure_url"
+      content="https://raheed-ishla.vercel.app/assets/images/raheed-zubaida-og-image.jpg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="AL Raheed Arafath &amp; Zubaida Sana Sherif — Wedding Invitation, 05 September 2026"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="AL Raheed Arafath &amp; Zubaida Sana Sherif | Wedding Invitation"
+    />
+    <meta
+      name="twitter:description"
+      content="05 September 2026 · Indiana Convention Centre, Jeppinamogaru, Mangalore"
+    />
+    <meta
+      name="twitter:image"
+      content="https://raheed-ishla.vercel.app/assets/images/raheed-zubaida-og-image.jpg"
+    />
+
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <meta name="theme-color" content="#F9F6EF" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&family=Amiri:wght@400;700&family=Bonheur+Royale&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Fixed, full-screen decorative floating flowers layer.
+       Populated by JS (initFloatingFlowers in main.js) with inline-SVG
+       petals — same technique as the Hafnas & Hisham reference site.
+       Stays pinned to the viewport while scrolling, never intercepts clicks. -->
+    <div
+      id="floating-flowers"
+      class="floating-flowers"
+      aria-hidden="true"
+    ></div>
+
+    <!-- ==================================================================
+     OPENING ANIMATION
+     ================================================================== -->
+    <div id="opening">
+      <div class="opening__stage">
+        <div class="opening__shimmer" aria-hidden="true"></div>
+
+        <svg class="opening__arch" viewBox="0 0 150 190" aria-hidden="true">
+          <path
+            d="M6 188 L6 90 C6 40 36 6 75 6 C114 6 144 40 144 90 L144 188"
+          />
+        </svg>
+
+        <img
+          class="opening__floral"
+          src="assets/images/floral-divider.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <p class="opening__bismillah arabic-text" data-bind="bismillah-arabic">
+          بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+        </p>
+
+        <div class="opening__title">
+          <span class="eyebrow">The Wedding Of</span>
+          <div class="opening__names" role="heading" aria-level="2">
+            <span data-bind="open-groom-name">AL Raheed Arafath</span
+            ><span class="amp"><br />&amp;<br /></span
+            ><span data-bind="open-bride-name">Zubaida Sana Sherif</span>
+          </div>
+        </div>
+
+        <button type="button" id="open-invitation-btn" class="opening__btn">
+          Open Invitation
+        </button>
+      </div>
+    </div>
+
+    <!-- ==================================================================
+     SITE
+     ================================================================== -->
+    <div id="site">
+      <!-- Floating music player -->
+      <div
+        class="music-player"
+        id="music-player"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+        aria-label="Play or pause background music"
+      >
+        <span class="ring" aria-hidden="true"></span>
+        <button type="button" tabindex="-1" aria-hidden="true">
+          <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+          <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+          </svg>
+        </button>
+      </div>
+      <audio
+        id="bg-music"
+        src="assets/music/music.mp3"
+        loop
+        preload="none"
+      ></audio>
+
+      <!-- ================================================================
+       2. HERO
+       ================================================================ -->
+      <header class="hero" id="hero">
+        <div class="hero__bg-image" aria-hidden="true"></div>
+        <div class="hero__overlay" aria-hidden="true"></div>
+        <div class="hero__paper-texture" aria-hidden="true"></div>
+        <div class="hero__spotlight" aria-hidden="true"></div>
+        <div class="hero__glow" aria-hidden="true"></div>
+        <div class="ambient-particles" aria-hidden="true"></div>
+        <!-- Decorative floating flowers (PNG), framing the hero, never over text -->
+        <img
+          class="hero__flower left"
+          src="assets/images/flower-1.png"
+          alt=""
+          aria-hidden="true"
+        />
+        <img
+          class="hero__flower right"
+          src="assets/images/flower-2.png"
+          alt=""
+          aria-hidden="true"
+        />
+        <!-- Floating geometric orbs -->
+        <div
+          class="hero__geo"
+          style="
+            width: 260px;
+            height: 260px;
+            top: 10%;
+            left: -5%;
+            --dur: 18s;
+            --delay: 0s;
+            --op: 0.06;
+            --tx: 30px;
+            --ty: -20px;
+            background: radial-gradient(
+              circle,
+              rgba(200, 169, 90, 0.12),
+              transparent 70%
+            );
+          "
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero__geo"
+          style="
+            width: 180px;
+            height: 180px;
+            bottom: 15%;
+            right: 2%;
+            --dur: 22s;
+            --delay: 3s;
+            --op: 0.05;
+            --tx: -20px;
+            --ty: 25px;
+            background: radial-gradient(
+              circle,
+              rgba(200, 169, 90, 0.09),
+              transparent 70%
+            );
+          "
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero__geo"
+          style="
+            width: 120px;
+            height: 120px;
+            top: 55%;
+            left: 8%;
+            --dur: 14s;
+            --delay: 6s;
+            --op: 0.07;
+            --tx: 15px;
+            --ty: -35px;
+            background: radial-gradient(
+              circle,
+              rgba(200, 169, 90, 0.1),
+              transparent 70%
+            );
+          "
+          aria-hidden="true"
+        ></div>
+
+        <!-- Crescent Moon Motif -->
+        <div class="hero__crescent" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none">
+            <path
+              d="M40 10C25 22 22 45 35 60C48 75 70 72 82 58C72 75 48 85 30 75C12 65 10 38 25 20C30 14 35 11 40 10Z"
+              fill="var(--gold-light)"
+              opacity="0.8"
+            />
+            <polygon
+              points="65,15 67,20 72,21 68,25 69,30 65,27 61,30 62,25 58,21 63,20"
+              fill="var(--gold)"
+            />
+            <polygon
+              points="80,30 81,32 84,33 82,35 83,37 80,36 78,37 79,35 77,33 79,32"
+              fill="var(--gold)"
+            />
+          </svg>
+        </div>
+
+        <!-- Gold corner ornaments -->
+        <img
+          class="hero__corner tl"
+          src="assets/images/corner-floral.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <img
+          class="hero__corner br"
+          src="assets/images/corner-floral.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <span class="eyebrow hero__eyebrow"
+              >Together With Their Families</span
+            >
+            <h1 class="hero__names">
+              <span data-bind="hero-groom-name">AL Raheed Arafath</span>
+              <span class="amp">&amp;</span>
+              <span data-bind="hero-bride-name">Zubaida Sana Sherif ( ISHLA )</span>
+            </h1>
+            <div class="hero__meta">
+              <div>
+                <span class="label">Date</span>
+                <span class="value" data-bind="hero-date">05 September 2026</span>
+              </div>
+              <div>
+                <span class="label">Venue</span>
+                <span class="value" data-bind="hero-venue">Jeppinamogaru</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__scroll" aria-hidden="true">
+          <span>Scroll</span>
+          <span class="line"></span>
+        </div>
+      </header>
+
+      <!-- ================================================================
+       3. BISMILLAH
+       ================================================================ -->
+      <section class="section bismillah" id="bismillah">
+        <!-- Rotating mandala rings -->
+        <div
+          class="bismillah__ring"
+          style="width: 420px; height: 420px; --op: 0.08; --spd: 60s"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="bismillah__ring"
+          style="
+            width: 320px;
+            height: 320px;
+            --op: 0.1;
+            --spd: 40s;
+            animation-direction: reverse;
+          "
+          aria-hidden="true"
+        ></div>
+        <div
+          class="bismillah__ring"
+          style="width: 220px; height: 220px; --op: 0.07; --spd: 28s"
+          aria-hidden="true"
+        ></div>
+        <div class="bismillah__mandala-bg" aria-hidden="true">
+          <svg
+            viewBox="0 0 120 120"
+            fill="none"
+            stroke="var(--divider)"
+            stroke-width="0.3"
+            stroke-dasharray="1 1"
+            opacity="0.45"
+          >
+            <circle cx="60" cy="60" r="50" />
+            <circle cx="60" cy="60" r="40" />
+            <circle cx="60" cy="60" r="30" />
+            <path d="M60 10 L60 110 M10 60 L110 60" />
+            <path d="M25 25 L95 95 M25 95 L95 25" />
+            <polygon points="60,15 91,46 60,77 29,46" />
+            <polygon points="60,43 91,74 60,105 29,74" />
+            <polygon points="46,29 77,60 46,91 15,60" />
+            <polygon points="74,29 105,60 74,91 43,60" />
+          </svg>
+        </div>
+        <div class="container section__frame">
+          <div class="bismillah__title-wrapper">
+            <span class="bismillah__deco-line" aria-hidden="true"></span>
+            <p
+              class="arabic-text bismillah__arabic reveal"
+              data-bind="bismillah-arabic"
+            >
+              بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+            </p>
+            <span class="bismillah__deco-line" aria-hidden="true"></span>
+          </div>
+          <div class="hairline reveal delay-1"></div>
+          <div class="bismillah__lines reveal delay-2">
+            <span data-bind="bismillah-l1">IN THE NAME OF ALLAH</span>
+            <span data-bind="bismillah-l2">THE MOST GRACIOUS</span>
+            <span data-bind="bismillah-l3">THE MOST MERCIFUL</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       4. INVITATION MESSAGE
+       ================================================================ -->
+      <section class="section section--alt" id="invitation">
+        <div class="invitation__arch-bg" aria-hidden="true"></div>
+        <!-- Starfield canvas -->
+        <div
+          class="section-canvas"
+          id="invitation-stars"
+          aria-hidden="true"
+        ></div>
+        <div class="container section__frame">
+          <img
+            class="corner-flourish tl"
+            src="assets/images/corner-floral.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <img
+            class="corner-flourish br"
+            src="assets/images/corner-floral.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="invitation">
+            <span class="invitation__quote-mark" aria-hidden="true"
+              >&ldquo;</span
+            >
+            <p
+              class="invitation__message reveal"
+              data-bind="invitation-message"
+            >
+              Together with their families, we joyfully invite you to
+              celebrate the blessed union.
+            </p>
+            <span class="invitation__quote-mark bottom" aria-hidden="true"
+              >&rdquo;</span
+            >
+            <div class="invitation__dua-card reveal delay-1" data-tilt>
+              <div class="invitation__dua-header">
+                <span class="gold-diamond"></span>
+                <!-- <span class="dua-title">Dua for the Couple</span> -->
+                <span class="gold-diamond"></span>
+              </div>
+              <p class="translit" data-bind="dua-translit">
+                Allahumma barik lahuma wa barik 'alayhima wa ajma' baynahuma fi
+                khayr.
+              </p>
+              <div class="hairline short"></div>
+              <p class="translation" data-bind="dua-translation">
+                &ldquo;O Allah, bless them, shower Your blessings upon them, and
+                unite them in goodness.&rdquo;
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       5. BRIDE & GROOM
+       ================================================================ -->
+      <section class="section" id="couple">
+        <!-- Floating petals canvas -->
+        <div class="section-canvas" id="couple-petals" aria-hidden="true"></div>
+        <!-- Section shimmer overlay -->
+        <div class="section-shimmer" aria-hidden="true"></div>
+        <!-- Ambient orbs -->
+        <div
+          class="orb"
+          style="
+            width: 350px;
+            height: 350px;
+            top: 5%;
+            left: -8%;
+            --op: 0.07;
+            --dur: 22s;
+            --delay: 0s;
+            --tx: 40px;
+            --ty: 30px;
+          "
+          aria-hidden="true"
+        ></div>
+        <div
+          class="orb"
+          style="
+            width: 250px;
+            height: 250px;
+            bottom: 5%;
+            right: -5%;
+            --op: 0.06;
+            --dur: 18s;
+            --delay: 4s;
+            --tx: -30px;
+            --ty: -40px;
+          "
+          aria-hidden="true"
+        ></div>
+        <div class="container">
+          <span class="eyebrow section-kicker">The Bride &amp; The Groom</span>
+          <h2 class="section-heading" style="text-align: center">
+            A Union Blessed By Allah
+          </h2>
+
+          <div class="couple-grid">
+            <!-- Groom -->
+            <div class="couple-card reveal" data-tilt>
+              <!-- Premium accents -->
+              <div class="card-top-accent" aria-hidden="true"></div>
+              <div class="couple-card__shimmer" aria-hidden="true"></div>
+              <!-- Corner ornaments -->
+              <span class="card-corner tl" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner tr" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner bl" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner br" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <!-- Content -->
+              <div class="couple-card__avatar-frame">
+                <span class="couple-card__initial" data-bind="groom-initial"
+                  >R</span
+                >
+                <div class="couple-card__avatar-ring"></div>
+              </div>
+              <h3 class="couple-card__name" data-bind="groom-name">
+                AL Raheed Arafath
+              </h3>
+              <div class="couple-card__details" data-bind="groom-details">
+                <div class="couple-card__relationship">
+                  <span
+                    class="relationship-grandparents"
+                    data-bind="groom-address"
+                  ></span>
+                  <span class="relationship-separator" aria-hidden="true"
+                    ><span class="gold-diamond"></span
+                  ></span>
+                  <span class="relationship-parents" data-bind="groom-parents"
+                  ></span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="couple-divider reveal delay-1" aria-hidden="true">
+              <span class="line"></span>
+              <div class="amp-box">
+                <span class="amp">&amp;</span>
+              </div>
+              <span class="line"></span>
+            </div>
+
+            <!-- Bride -->
+            <div class="couple-card reveal delay-2" data-tilt>
+              <!-- Premium accents -->
+              <div class="card-top-accent" aria-hidden="true"></div>
+              <div class="couple-card__shimmer" aria-hidden="true"></div>
+              <!-- Corner ornaments -->
+              <span class="card-corner tl" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner tr" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner bl" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <span class="card-corner br" aria-hidden="true">
+                <svg viewBox="0 0 28 28" fill="none">
+                  <path
+                    d="M2 26 L2 8 C2 4.7 4.7 2 8 2 L26 2"
+                    stroke="var(--gold)"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                  />
+                  <circle
+                    cx="2"
+                    cy="26"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="26"
+                    cy="2"
+                    r="1.5"
+                    fill="var(--gold)"
+                    opacity="0.6"
+                  />
+                  <circle
+                    cx="14"
+                    cy="14"
+                    r="1.8"
+                    fill="none"
+                    stroke="var(--gold)"
+                    stroke-width="0.8"
+                    opacity="0.5"
+                  />
+                </svg>
+              </span>
+              <!-- Content -->
+              <div class="couple-card__avatar-frame">
+                <span class="couple-card__initial" data-bind="bride-initial"
+                  >I</span
+                >
+                <div class="couple-card__avatar-ring"></div>
+              </div>
+              <h3 class="couple-card__name" data-bind="bride-name">
+                Zubaida Sana Sherif
+              </h3>
+              <div class="couple-card__details" data-bind="bride-details">
+                <div class="couple-card__relationship">
+                  <span
+                    class="relationship-grandparents"
+                    data-bind="bride-address"
+                  ></span>
+                  <span class="relationship-separator" aria-hidden="true"
+                    ><span class="gold-diamond"></span
+                  ></span>
+                  <span class="relationship-parents" data-bind="bride-parents"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       7. WEDDING DETAILS
+       ================================================================ -->
+      <section class="section section--alt" id="details">
+        <!-- Ambient orbs -->
+        <div
+          class="orb"
+          style="
+            width: 300px;
+            height: 300px;
+            top: -60px;
+            left: 50%;
+            margin-left: -150px;
+            --op: 0.07;
+            --dur: 20s;
+            --delay: 0s;
+            --tx: 0px;
+            --ty: 30px;
+          "
+          aria-hidden="true"
+        ></div>
+        <div class="container">
+          <span class="eyebrow section-kicker">Save The Date</span>
+          <h2 class="section-heading" style="text-align: center">
+            Wedding Details
+          </h2>
+
+          <div class="details-grid">
+            <div class="detail-card reveal" data-tilt>
+              <div class="detail-card__icon-wrap">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                >
+                  <rect x="3" y="5" width="18" height="16" rx="2" />
+                  <path d="M8 3v4M16 3v4M3 10h18" />
+                </svg>
+              </div>
+              <h3 data-bind="detail-date">05 September 2026</h3>
+              <p data-bind="detail-day">Saturday</p>
+              <p class="sub" data-bind="detail-hijri"></p>
+            </div>
+            <div class="detail-card reveal delay-1" data-tilt>
+              <div class="detail-card__icon-wrap">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                >
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3.5 2" />
+                </svg>
+              </div>
+              <h3 data-bind="detail-time">11:00 AM – 2:00 PM</h3>
+              <p class="sub">Ceremony Begins</p>
+            </div>
+            <div class="detail-card reveal delay-2" data-tilt>
+              <div class="detail-card__icon-wrap">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.4"
+                >
+                  <path
+                    d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z"
+                  />
+                  <circle cx="12" cy="9.5" r="2.5" />
+                </svg>
+              </div>
+              <h3 data-bind="detail-venue">Indiana Convention Centre</h3>
+              <p class="sub" data-bind="detail-venue-sub">Jeppinamogaru, Mangalore</p>
+            </div>
+          </div>
+
+          <!-- ================================================================
+           8. COUNTDOWN
+           ================================================================ -->
+          <div id="countdown" class="countdown reveal delay-3">
+            <div class="countdown__unit">
+              <div class="countdown__number" data-bind="cd-days">00</div>
+              <div class="countdown__label">Days</div>
+            </div>
+            <span class="countdown__sep">:</span>
+            <div class="countdown__unit">
+              <div class="countdown__number" data-bind="cd-hours">00</div>
+              <div class="countdown__label">Hours</div>
+            </div>
+            <span class="countdown__sep">:</span>
+            <div class="countdown__unit">
+              <div class="countdown__number" data-bind="cd-mins">00</div>
+              <div class="countdown__label">Minutes</div>
+            </div>
+            <span class="countdown__sep">:</span>
+            <div class="countdown__unit">
+              <div class="countdown__number" data-bind="cd-secs">00</div>
+              <div class="countdown__label">Seconds</div>
+            </div>
+          </div>
+          <p
+            id="countdown-ended"
+            class="section-intro"
+            style="
+              display: none;
+              margin-top: 40px;
+              font-family: var(--f-heading);
+              font-size: 1.4rem;
+              color: var(--gold);
+            "
+          >
+            The celebration has begun — Alhamdulillah!
+          </p>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       9 & 10. VENUE + GOOGLE MAPS
+       ================================================================ -->
+      <section class="section" id="venue">
+        <!-- Ambient orbs -->
+        <div
+          class="orb"
+          style="
+            width: 280px;
+            height: 280px;
+            top: 20%;
+            right: -5%;
+            --op: 0.07;
+            --dur: 24s;
+            --delay: 2s;
+            --tx: -30px;
+            --ty: 20px;
+          "
+          aria-hidden="true"
+        ></div>
+        <div class="container">
+          <span class="eyebrow section-kicker">Join Us At</span>
+          <h2 class="section-heading" style="text-align: center">The Venue</h2>
+
+          <div class="venue-wrap">
+            <div class="venue-info reveal">
+              <h3 data-bind="venue-name">
+                Indiana Convention Centre
+              </h3>
+            </div>
+            <div class="map-frame reveal delay-1">
+              <iframe
+                data-bind="venue-map-embed"
+                src=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Venue location on Google Maps"
+              ></iframe>
+            </div>
+            <div class="venue-actions">
+              <a
+                class="btn btn--solid"
+                data-bind="venue-directions"
+                href="https://www.google.com/maps/dir/?api=1&destination=Indiana+Convention+Centre%2C+Jeppinamogaru%2C+Mangalore"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <path
+                    d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z"
+                  />
+                  <circle cx="12" cy="9.5" r="2.5" />
+                </svg>
+                <span class="btn-text">Get Directions</span>
+              </a>
+              <button
+                type="button"
+                class="btn btn--outline"
+                id="copy-address-btn"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                >
+                  <rect x="9" y="9" width="12" height="12" rx="2" />
+                  <path d="M5 15V5a2 2 0 0 1 2-2h10" />
+                </svg>
+                <span class="btn-text">Copy Address</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       12. THANK YOU
+       ================================================================ -->
+      <section class="section thankyou" id="thankyou">
+        <!-- Rose petal canvas -->
+        <div class="section-canvas" id="ty-petals" aria-hidden="true"></div>
+        <!-- Orbs -->
+        <div
+          class="orb"
+          style="
+            width: 360px;
+            height: 360px;
+            top: 0%;
+            left: 50%;
+            margin-left: -180px;
+            --op: 0.12;
+            --dur: 20s;
+            --delay: 0s;
+            --tx: 0px;
+            --ty: 40px;
+            background: radial-gradient(
+              circle,
+              rgba(200, 169, 90, 0.2),
+              transparent 70%
+            );
+          "
+          aria-hidden="true"
+        ></div>
+        <div class="container">
+          <h2 class="thankyou__heading reveal" data-bind="thankyou-heading">
+            JazakAllahu Khair wa BarakAllahu Feek
+          </h2>
+          <p
+            class="thankyou__message reveal delay-1"
+            data-bind="thankyou-message"
+          >
+            From the bottom of our hearts, thank you for being a part of our
+            journey. Your presence, prayers and blessings mean the world to us
+            as we begin this new chapter together.
+          </p>
+          <p
+            class="thankyou__blessing reveal delay-2"
+            data-bind="thankyou-blessing"
+          >
+            May Allah bless our union and grant us a home filled with love,
+            mercy and peace.
+          </p>
+          <img
+            class="thankyou__floral reveal delay-3"
+            src="assets/images/floral-divider.svg"
+            alt=""
+            aria-hidden="true"
+          />
+        </div>
+      </section>
+
+      <!-- ================================================================
+       12b. WISHES / SPONSOR
+       ================================================================ -->
+      <section class="section wishes" id="wishes">
+        <div class="container">
+          <span class="eyebrow section-kicker" data-bind="wishes-kicker">With Gratitude</span>
+          <h2 class="section-heading reveal" style="text-align: center" data-bind="wishes-heading">
+            Best Wishes From
+          </h2>
+          <div class="wishes-card reveal delay-1">
+            <img
+              class="wishes-card__logo"
+              src="assets/images/bright-caterers-logo.png"
+              alt="Bright Caterers & Arrangers"
+              data-bind="wishes-logo"
+            />
+            <p class="wishes-card__name" data-bind="wishes-sponsor-name">
+              Bright Caterers &amp; Arrangers
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================================================================
+       13. FOOTER
+       ================================================================ -->
+      <footer class="site-footer">
+        <div class="footer-glow" aria-hidden="true"></div>
+        <div class="container">
+          <div class="monogram" data-bind="footer-monogram">A &amp; Z</div>
+          <p class="foot-line" data-bind="footer-line">
+            Made with ❤ for the celebration of love.
+          </p>
+          <p class="foot-line" data-bind="footer-couple">
+            AL Raheed Arafath &amp; Zubaida Sana Sherif · 05.09.2026
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- /#site -->
+
+    <script src="js/config.js"></script>
+    <!-- RSVP section is commented out above, so its config script is disabled too -->
+    <!-- <script src="js/rsvp-config.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
